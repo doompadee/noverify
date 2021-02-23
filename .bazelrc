@@ -1,0 +1,4 @@
+build --java_toolchain=@remote_java_tools_linux//:toolchain_jdk_15 \
+--host_java_toolchain=@remote_java_tools_linux//:toolchain_jdk_15 \
+--javabase=@openjdk15_linux_archive//:runtime \
+--host_javabase=@openjdk15_linux_archive//:runtime
